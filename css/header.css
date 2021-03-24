@@ -13,8 +13,16 @@
 
 .header .navbar {
   margin-bottom: var(--space-big);
+ 
 }
 
 .header .navbar a {
-  padding: var(--space-small)
+  padding: var(--space-small);
+  color: var(--color-pink);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.header .navbar a:hover {
+  color: var(--color-tangenta);
 }
