@@ -1,0 +1,9 @@
+:root {
+  --color-chocolate: #540b0e;
+  --color-green: #2ec4b6;
+
+  --space-small: 8px;
+  --space-medium: 16px;
+  --space-big: 24px;
+  --space-extra-big: 48px;
+}

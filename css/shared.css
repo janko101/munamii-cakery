@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+body {
+  font-family: 'Syne Mono', monospace;
+  color: var(--color-chocolate);
+  max-width: 960px;
+  padding: var(--space-medium);
+  margin: 0 auto;
+}
