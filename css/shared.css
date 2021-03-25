@@ -15,6 +15,9 @@ body {
   position: relative;
 }
 
-hr {
-  color: var(--color-green);
+.image-divider {
+  margin: auto;
+  width: 100%;
+  display: block;
+  padding-bottom: var(--space-extra-big);  /* Moves fotter to the bottom if content gets bigger */
 }
