@@ -6,7 +6,7 @@
   border-radius: 500px;
   border: solid var(--space-small) var(--color-green);
   margin-bottom: var(--space-medium);
-  width: 120px;
+  width: 40%;
   height: auto;
 }
 
@@ -19,9 +19,20 @@
   padding: var(--space-extra-small);
   color: var(--color-pink);
   text-decoration: none;
-  font-size: 18px;
 }
 
 .header .navbar a:hover {
   color: var(--color-mangenta);
+}
+
+@media (min-width: 750px) {
+  .header .logo {
+    border: solid var(--space-medium) var(--color-green);
+    margin-bottom: var(--space-big);
+  }
+
+  .header .navbar a{
+    font-size: 36px;
+    padding: var(--space-small);
+  }
 }
