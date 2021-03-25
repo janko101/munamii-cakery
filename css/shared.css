@@ -20,4 +20,5 @@ body {
   width: 100%;
   display: block;
   padding-bottom: var(--space-extra-big);  /* Moves fotter to the bottom if content gets bigger */
+
 }
