@@ -1,18 +1,19 @@
 .footer {
   position: absolute;
-  bottom: var(--space-extra-big);
+  bottom: var(--space-big);
+  height: var(--space-extra-big);
   width: 100%;
-  text-align: center;
 }
 
 .footer .contact-links {
-  display: flex;
-
+  margin: auto;
+  padding: var(--space-medium);
+  text-align: center;
 }
 
 .footer .contact-links li {
   list-style: none;
-
+  display: inline-block;
 }
 
 .footer .contact-links li a {

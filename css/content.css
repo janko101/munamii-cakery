@@ -1,0 +1,3 @@
+.content-wrap {
+  padding-bottom: var(--space-extra-big);  /* Moves fotter to the bottom if content gets bigger */
+}
