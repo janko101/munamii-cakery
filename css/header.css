@@ -32,7 +32,14 @@
   }
 
   .header .navbar a{
+    font-size: 24px;
+    padding-left: var(--space-small);
+  }
+}
+
+@media (min-width: 1000px) {
+  .header .navbar a{
     font-size: 36px;
-    padding: var(--space-small);
+    padding-left: var(--space-big);
   }
 }

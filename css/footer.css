@@ -7,7 +7,7 @@
 
 .footer .contact-links {
   margin: auto;
-  padding: var(--space-medium);
+  padding-left: var(--space-medium);
   text-align: center;
   font-size: 12px;
 }
@@ -41,7 +41,15 @@
 
 @media (min-width: 750px) {
   .footer .contact-links {
+    font-size: 18px;
+    padding-left: var(--space-big);
+  }
+}
+
+@media (min-width: 1000px) {
+  .footer .contact-links {
     font-size: 24px;
+    padding-left: var(--space-extra-big);
   }
 }
 

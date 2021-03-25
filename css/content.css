@@ -4,3 +4,10 @@
     padding: var(--space-small);
   }
 }
+
+@media (min-width: 1000px) {
+  .content {
+    font-size: 32px;
+    padding: var(--space-medium);
+  }
+}
