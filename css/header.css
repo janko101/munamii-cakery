@@ -17,7 +17,7 @@
 }
 
 .header .navbar a {
-  padding: var(--space-small);
+  padding: var(--space-extra-small);
   color: var(--color-pink);
   text-decoration: none;
   font-size: 18px;

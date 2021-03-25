@@ -1,9 +1,21 @@
+.footer {
+  position: absolute;
+  bottom: var(--space-extra-big);
+  width: 100%;
+  text-align: center;
+}
+
 .footer .contact-links {
-  padding-left: 0;
+  display: flex;
+
 }
 
 .footer .contact-links li {
   list-style: none;
-  margin-bottom: var(--space-small);
+
+}
+
+.footer .contact-links li a {
   text-decoration: none;
+  padding: var(--space-extra-small);  
 }

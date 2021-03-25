@@ -6,6 +6,14 @@ body {
   max-width: 960px;
   padding: var(--space-medium);
   margin: 0 auto;
+  height: 100%;
+  position: relative;
+}
+
+.main-container {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  display: block;
+  position: relative;
 }
 
 hr {
