@@ -18,5 +18,18 @@
 
 .footer .contact-links li a {
   text-decoration: none;
-  padding: var(--space-extra-small);  
+  padding: var(--space-small);  
 }
+
+#link-facebook {
+  color: var(--color-facebook-blue);
+}
+
+#link-instagram {
+  color: var(--color-mangenta);
+}
+
+#link-mail {
+  color: var(--color-brown);
+}
+
