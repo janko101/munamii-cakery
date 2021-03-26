@@ -31,14 +31,14 @@
     margin-bottom: var(--space-big);
   }
 
-  .header .navbar a{
+  .header .navbar a {
     font-size: 32px;
     padding-left: var(--space-big);
   }
 }
 
 @media (min-width: 1020px) {
-  .header .navbar a{
+  .header .navbar a {
     font-size: 48px;
     padding-left: var(--space-extra-big);
   }
