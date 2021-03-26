@@ -1,8 +1,4 @@
-@media (min-width: 400px) {
-  .content {
-    padding: var(--space-small);
-  }
-
+@media (min-width: 550px) {
   .content .grid {
     display: grid;
     grid-column-gap: var(--space-medium);
@@ -38,15 +34,17 @@
   max-width: 100%;
 }
 
-.product-card .title {
+.product-card .product-info {
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.product-card .product-info .title {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.product-card .price {
-  font-weight: bold;
+.product-card .product-info .price {
   margin-top: 0;
   margin-bottom: 0;
 }
