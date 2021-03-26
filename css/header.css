@@ -18,6 +18,7 @@
   padding: var(--space-extra-small);
   color: var(--color-pink);
   text-decoration: none;
+  font-size: 18px;
 }
 
 .header .navbar a:hover {
@@ -38,7 +39,7 @@
 
 @media (min-width: 1020px) {
   .header .navbar a{
-    font-size: 40px;
+    font-size: 48px;
     padding-left: var(--space-extra-big);
   }
 }

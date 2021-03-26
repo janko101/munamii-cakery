@@ -1,13 +1,26 @@
+.content-wrap {
+  padding-bottom: var(--space-big);  
+}
+
 @media (min-width: 400px) {
-  .content {
-    font-size: 24px;
+  .content-wrap .content {
+    font-size: 16px;
     padding: var(--space-small);
 
   }
 }
 
-@media (min-width: 1000px) {
-  .content {
-    font-size: 32px;
+
+@media (min-width: 550px) {
+  .content-wrap .content {
+    font-size: 24px;
+    padding: var(--space-medium);
+  }
+}
+
+@media (min-width: 1020px) {
+  .content-wrap .content {
+    font-size: 36px;
+    padding: var(--space-big);
   }
 }

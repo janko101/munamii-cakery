@@ -6,7 +6,7 @@
   }
 }
 
-@media (min-width: 1050px) {
+@media (min-width: 1025px) {
   .content {
     padding: var(--space-small);
   }
@@ -23,13 +23,13 @@
 
 .product-card {
   border-radius: var(--space-medium);
-    padding: var(--space-big);
-    text-align: left;
-    border: solid var(--space-extra-small) var(--color-green);
-    margin-bottom: var(--space-medium);
-  }
+  padding: var(--space-big);
+  text-align: left;
+  border: solid var(--space-extra-small) var(--color-green);
+  margin-bottom: var(--space-medium);
+}
 
-.product-card .product-image{
+.product-card .product-image {
   max-width: 100%;
   max-width: 100%;
 }
