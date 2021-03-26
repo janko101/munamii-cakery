@@ -1,5 +1,5 @@
 ### Author   
-[Janko Radakovic](https://github.com/janko101/janko101)
+[Janko Radakovic](https://github.com/janko101/)
 ## Built with  
 HTML, CSS   
 **Deployed at:** [Firebse](https://munamii-cakery-101.web.app) 
