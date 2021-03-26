@@ -11,8 +11,7 @@
 }
 
 .header .navbar {
-  margin-bottom: var(--space-extra-big);
- 
+  margin-bottom: var(--space-big);
 }
 
 .header .navbar a {
@@ -32,14 +31,14 @@
   }
 
   .header .navbar a{
-    font-size: 24px;
-    padding-left: var(--space-small);
+    font-size: 32px;
+    padding-left: var(--space-big);
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1020px) {
   .header .navbar a{
-    font-size: 36px;
-    padding-left: var(--space-big);
+    font-size: 40px;
+    padding-left: var(--space-extra-big);
   }
 }
